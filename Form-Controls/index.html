@@ -15,7 +15,54 @@
   <main>
   <form>
     <!-- write your html here-->
-    <!-- try writing out the requirements first-->
+    
+  
+
+<label for = "customername">Customer Name</label>
+<input id = "name" type = "text" name = "customername"  minlength="3"> 
+
+<br>
+
+<label for = "customeremail" > Please enter your email address?    </label>
+<input id = "customeremailadddress"  type = "url"  name= " email address"          >
+
+<br>
+
+<fieldset>
+  <legend>What Color T shirt?</legend>
+    <input id="redtshirt" type="radio" name="colortshirt" value="redtshirt" />
+    <label for="small">Red </label>
+    
+    <input id="bluetshirt" type="radio" name="colortshirt" value="bluetshirt" checked />
+    <label for="medium">Blue</label>
+    
+    <input id="whitetshirt" type="radio" name="colortshirt" value="whitetshirt" />
+    <label for="large">White</label>
+    
+</fieldset>
+
+
+<br>
+
+<label for="shirtsize">What T shirt size would you like?</label>
+<select id="shirtsize" name="shirtsize">
+  <option value="XS" selected>XS</option>
+  <option value="S">S</option>
+  <option value="M">M</opolishption>
+  <option value="L">L</option>
+  <option value="XL">XL</option>
+  <option value="XXL">XXL</option>
+  </select>
+
+<br>
+
+
+<label for="deliverydate">When would you like this to be delivered</label>
+<input  min="2021-11-20" max="2021-12-20"   id =dateofdelivery type = "date"> 
+  
+<br>
+
+<input type="submit">
   </form>
 
   </main>
